@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+span{
+    color: rgb(20, 220, 70);
+}
+
+nav ul li  {
+    list-style-type: none;
+    display: inline-block;
+    padding:  10px;
+}
+
+
+nav ul li  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+
+}
+
+nav ul li  a:hover {
+    color: rgb(20, 220, 70);
+    transition:0.5s;
+    transform: scale(1.2);
+}
+
+
+
+.btn {
+   background-color:rgb(20, 220, 70) ;
+   color: white;
+   text-decoration: none;
+   border: 0px solid;
+   padding:10px 10px;
+   font-weight: bold;
+   border-radius: 40px;
+   transition: transform.4s;
+
+   
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+.content {
+    color: white;
+    padding-top: 200px;
+    padding-left: 8%;
+    transform: translate(-5%);
+}
+h1{
+    color:rgb(20, 220, 70) ;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+      
+}
+
+.newsletter form {
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+}
+   
+.newsletter form input  :first-child  {
+    display: inline-block;
+    width: 300px;
+    padding: 14px 130px 14px 15px ;
+    border: 2px solid rgb(20, 220, 70) ;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newsletter form input :last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(20, 220, 70) ;
+    outline: none;
+    color: white;
+    box-shadow: 0px 0px 5px #000;
+    top: 6px;
+    right: 6px;
+}
+.about-section {
+    width: 100px;
+    padding: 100px 0px;
+    background-color: #000;
+}
